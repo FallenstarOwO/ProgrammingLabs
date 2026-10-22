@@ -1,0 +1,10 @@
+bin/
+obj/
+.vs/
+publish/
+*.lnk
+*.user
+*.suo
+*.log
+screenshot-*.png
+smoke-result.txt
