@@ -35,20 +35,6 @@ dotnet run --project .\ProgrammingLabs\ProgrammingLabs.csproj
 
 `publish\ProgrammingLabs.exe` 是自包含单文件版本，已经打包 .NET 运行时，**不需要另外安装 .NET**，直接拷贝到其他 Windows x64 电脑也能运行。文件约 116 MB，属于正常大小。
 
-## Git
-
-本目录已初始化为独立 Git 仓库（`main` 分支），位于 `D:\Git\ProgrammingLabs`，与 `D:\Git` 父仓库相互独立。
-
-远程仓库：<https://github.com/FallenstarOwO/ProgrammingLabs>
-
-推送后续更新：
-
-```powershell
-git push
-```
-
-`publish/`、`bin/`、`obj/`、`*.lnk` 已加入 `.gitignore`，不会提交 116 MB 的 exe 和本机快捷方式。
-
 ## 项目结构
 
 ```
