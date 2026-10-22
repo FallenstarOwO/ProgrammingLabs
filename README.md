@@ -37,11 +37,14 @@ dotnet run --project .\ProgrammingLabs\ProgrammingLabs.csproj
 
 ## Git
 
-本目录已初始化为独立 Git 仓库（`main` 分支），位于 `D:\Git\ProgrammingLabs`，与 `D:\Git` 父仓库相互独立。推送到远程仓库：
+本目录已初始化为独立 Git 仓库（`main` 分支），位于 `D:\Git\ProgrammingLabs`，与 `D:\Git` 父仓库相互独立。
+
+远程仓库：<https://github.com/FallenstarOwO/ProgrammingLabs>
+
+推送后续更新：
 
 ```powershell
-git remote add origin <你的仓库地址>
-git push -u origin main
+git push
 ```
 
 `publish/`、`bin/`、`obj/`、`*.lnk` 已加入 `.gitignore`，不会提交 116 MB 的 exe 和本机快捷方式。
